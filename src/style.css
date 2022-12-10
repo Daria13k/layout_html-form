@@ -2,11 +2,7 @@
   margin-bottom: 20px;
 }
 
-.input {
+.input:not(:last-child) {
   margin-bottom: 10px;
   display: block;
-}
-
-.fieldset .field:last-child {
-  margin: 0;
 }
